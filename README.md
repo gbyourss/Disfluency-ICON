@@ -17,8 +17,8 @@ There are 2 Jupyter Notebooks and 1 python script:
 		
 #### File paths to change in Jupyter Notebooks
 ```shell
-* dev_file = '/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/tamil/tamil_dev_50.tsv'
-* train_file = '/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/tamil/tamil_train_50.tsv'
+dev_file = '/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/tamil/tamil_dev_50.tsv'
+train_file = '/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/tamil/tamil_train_50.tsv'
 ```
 
 * Test.ipynb
