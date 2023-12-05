@@ -6,8 +6,8 @@ Contains scripts and Models for the Shared Task in ICON 2023 - Disfluency Identi
 Repository Contains 
 
 * Scripts
-* Scripts
-* Data
+* Model
+
 
 ## Scripts
 Scripts contain 2 Jupyter Notebooks and 1 python script
@@ -41,5 +41,3 @@ Modify the location of the model and of the test files
 ## Model
 All the Models created by the train script - One for each language
 
-## Data
-Contains all the train dev & test data for all 6 languages
