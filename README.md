@@ -9,14 +9,13 @@ Contains scripts and Models for the Shared Task in ICON 2023 - Disfluency Identi
 
 
 ## Scripts
-Scripts contain 2 Jupyter Notebooks and 1 python script
-	* split_file.py
-		* This introduces a line break after every 50 tokens.
-		* This will enable us to load data that does not have any clear end of sentence markers.
-		* Change the following label to the required file
-
-	* Train.ipynb
-		Fine Tunes a selected model on the train data and evaluate it on the dev data. Change the following label at the top of the script accorndingly.
+Scripts contain 2 Jupyter Notebooks and 1 python script:
+* split_file.py
+	* This introduces a line break after every 50 tokens.
+	* This will enable us to load data that does not have any clear end of sentence markers.
+	* Change the following label to the required file
+* Train.ipynb
+	* Fine Tunes a selected model on the train data and evaluate it on the dev data. Change the following label at the top of the script accorndingly.
 		
 #### File paths to change in Jupyter Notebooks
 * dev_file = '/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/tamil/tamil_dev_50.tsv'
@@ -36,13 +35,13 @@ model_save_location="/content/drive/MyDrive/Disfluency Task/Model/Tamil-Bert"
 
 #### File paths to change in Test.ipynb
 ```shell
-	test_file='/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/marathi/marathi_test_blind_50.tsv'
-	file_save_path='/content/sample_data/marathi_output.tsv'
-	model_checkpoint = "/content/drive/MyDrive/Disfluency Task/Model/Marathi-Bert"
-	batch_size = 16
-	max_sequence_length = 256
-	task = "disfluency"
-	epochs = 5
+test_file='/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/marathi/marathi_test_blind_50.tsv'
+file_save_path='/content/sample_data/marathi_output.tsv'
+model_checkpoint = "/content/drive/MyDrive/Disfluency Task/Model/Marathi-Bert"
+batch_size = 16
+max_sequence_length = 256
+task = "disfluency"
+epochs = 5
 ```
 
 Modify the location of the model and of the test files 
