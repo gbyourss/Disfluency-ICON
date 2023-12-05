@@ -1,6 +1,6 @@
 # Disfluency-ICON
 
-Contains scripts and Models for the Shared Task in ICON 2023 - Disfluency Identification for 6 Indian Languages 2023
+Contains scripts for the Shared Task in ICON 2023 - Disfluency Identification for 6 Indian Languages 2023
 
 
 ### Repository Contains
