@@ -15,7 +15,7 @@ There are 2 Jupyter Notebooks and 1 python script:
 * Train.ipynb
 	* Fine Tunes a selected model on the train data and evaluate it on the dev data. Change the following label at the top of the script accorndingly.
 		
-#### File paths to change in Jupyter Notebooks
+#### File paths/labels to be changed in Train.ipynb
 ```shell
 dev_file = '/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/tamil/tamil_dev_50.tsv'
 train_file = '/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/tamil/tamil_train_50.tsv'
@@ -30,9 +30,3 @@ test_file='/content/drive/MyDrive/Disfluency Task/Training_Data_Split_50/marathi
 file_save_path='/content/sample_data/marathi_output.tsv'
 model_checkpoint = "/content/drive/MyDrive/Disfluency Task/Model/Marathi-Bert"
 ```
-
-Modify the location of the model and of the test files 
-
-## Model
-All the Models created by the train script - One for each language
-
